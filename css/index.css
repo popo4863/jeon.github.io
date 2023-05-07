@@ -1,0 +1,236 @@
+/************************** 폰트 설정 **************************/
+@font-face { 
+	font-family: 'Nanum';
+	src: url('../font/NanumGothic-Regular.ttf') format('truetype');
+}
+@font-face { 
+	font-family: 'Icecream_en';
+	src: url('../font/Pacifico-Regular.ttf') format('truetype');
+}
+@font-face { 
+	font-family: 'Satisfy_en';
+	src: url('../font/Satisfy-Regular.ttf') format('truetype');
+}
+/************************************************************/
+* {
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html, body {
+	font-family: 'Nanum';
+	background-color: #f9f9f9;
+}
+.filter-item > .about > .home-left table, th, td {
+	text-align: left;
+	line-height: 2;
+}
+/************************************************************
+						S T A R T
+************************************************************/
+/*******************************
+			H O M E
+								*/
+.section1-container {
+	width: 960px;
+	margin: 0 auto;
+	
+	clear: both;
+}
+.filter-menu {
+	text-align: center;
+}
+.filter-menu li {
+    display: inline-block;
+	padding: 45px 45px 45px 45px;
+	cursor: pointer;
+}
+/*
+		current : 클릭 시 유지 
+										*/
+.filter-menu li:hover,
+.filter-menu li.current {
+    color: #bbb;
+	border-bottom: 2px solid #bbb;
+}
+/**************************************/
+.filter-item > .home {
+	clear: both;
+}
+/* home : 왼쪽 컨텐츠 */
+.filter-item > .home > .home-left h1 { font-size:3.2em; font-family: '바탕체'; }
+.filter-item > .home > .home-left h2 { font-size:1em; font-family: 'Nanum'; }
+.filter-item > .home > .home-left h3 { font-size:0.94em; line-height: 1.9; font-family: 'Nanum'; }
+.filter-item > .home > .home-left > h3 > .rest { max-width: 35px; margin: 10px 0 0 0; }
+.filter-item > .home > .home-left h3 span { border-left: 2px solid #bbb; padding-left: 10px; display: block; }
+/* home : 오른쪽 컨텐츠 */
+.filter-item > .home > .home-right h1 { font-size:3.2em; border-left:2px solid #bbb; font-family: '바탕체'; }
+.filter-item > .home > .home-right h2 { font-size:0.94em; line-height: 1.9; font-family: 'Nanum'; }
+.filter-item > .home > .home-right h2 img { 
+	max-width: 170px; position: absolute; transform: translate(-50%, -50%); top: 24%; left: 50%;
+	/* 이름 / 재생시간 / 진행속도 / 몇 초 후 시작인지 / 재생방향 / 반복횟수 */
+	animation: profileimg 0.7s ease-in-out 0s normal 1;
+}
+@keyframes profileimg {
+	0% {
+		margin-top: -100px;
+		opacity: 0;
+	}
+	100% {
+		margin-top: 0px;
+		opacity: 1;
+	}
+}
+
+.filter-item > .home > .home-left {
+	width: 50%;
+	float: left; letter-spacing: -2px;
+}
+.filter-item > .home > .home-right {
+	width: 50%;
+	text-align: right;
+	float: left; letter-spacing: -2px;
+}
+/*
+			H O M E, E N D
+**************************************/
+/*******************************
+			A B O U T
+								*/
+.filter-item > .about > .home-left {
+	width: 48%;
+	float: left; letter-spacing: -2px;
+}
+.filter-item > .about > .home-right {
+	width: 52%;
+	height: 100%;
+	display: inline-block;
+	text-align: left;
+}
+.filter-item > .about > .home-left img { max-width: 170px; }
+.filter-item > .about > .home-left h1 { 
+	font-size: 30px;
+	font-style: italic;
+	
+	padding: 10px 0 10px 0;
+}
+.filter-item > .about > .home-left h1>span {
+	width: 210px; height: 20px;
+	
+	background-color: rgba(148, 61, 148, 0.3);
+	margin: -15px 0 0 5px;
+	display: block;
+}
+.filter-item > .about > .home-left h3 { line-height: 1.5; }
+.filter-item > .about > .home-left h4 p { letter-spacing: 2px; font-size:1em; font-weight: 900; font-style: italic; }
+.filter-item > .about > .home-left h4 td { padding-left: 15px; text-align: left; }
+.filter-item > .about > .home-left > .rest { max-width: 45px; margin: 70px 0 10px 0; }
+.filter-item > .about > .home-right h2 {
+	font-size: 1.32em; font-weight: 900;
+	line-height: 3.5; 
+	margin : 0;
+}
+.filter-item > .about > .home-right span {
+	display: block;
+	line-height: 2.2;
+	
+	font-size: 0.93em;
+	letter-spacing: -1px;
+}
+.filter-item > .about > .home-right h2 > span:after {
+    position: absolute;
+    content: '';
+    width: 8px; /* 사이즈 */
+    height: 8px; /* 사이즈 */
+    border-top: 2px solid #943d94; /* 선 두께 */
+    border-right: 2px solid #943d94; /* 선 두께 */
+    transform: rotate(45deg); /* 각도 */
+	margin-top: 36px;
+}
+.filter-item > .about > .home-right span > img {
+	padding-left: 10px;
+}
+/*
+			A B O U T, E N D
+*****************************************/
+/*****************************************
+			P O R T F O L I O
+										*/
+.portfolio { margin: 0 auto; text-align: center; }
+.portfolio > .pf-left { clear: both; padding-top: 30px; }
+.portfolio > .pf-left .pf-img { 
+	float: left; 
+	display: inline-block; 
+	width: 45%; 
+	box-shadow: 3px 7px 15px #ddd; 
+	cursor: pointer;
+}
+.pf-left-text { 
+	float: left; 
+	width: 50%; 
+	padding: 25px 0 0 46px;
+}
+.pf-left-text th { padding-right: 25px; }
+.pf-left-text td { padding-left: 10px; }
+/* 체크박스 숨기기 */
+#layer-popup,
+#layer-popup2,
+#layer-popup3,
+#layer-popup4 { 
+	display: none;
+}
+/* 레이어 팝업 라벨디자인 및 연결 */
+#layer-popup + label,
+#layer-popup2 + label,
+#layer-popup3 + label,
+#layer-popup4 + label {
+	padding: 10px;
+	display: block;
+    color: #fff;
+}
+/* 팝업창 숨기기 */
+.portfolio-1 { display: none; }
+/* 팝업창 나타내기 및 디자인 */
+#layer-popup:checked + label + .pf-left-text + .portfolio-1,
+#layer-popup2:checked + label + .portfolio-1,
+#layer-popup3:checked + label + .pf-left-text + .portfolio-1,
+#layer-popup4:checked + label + .portfolio-1 { 
+	position: absolute;
+	top: 0%; left: 0%;
+	display: block;
+
+	z-index: 999;
+	animation: portfolio-img 0.7s ease-in-out 0s normal 1; 
+}
+	@keyframes portfolio-img {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+.portfolio-1 .pf-img-main {
+	position: fixed;
+	top: 50%; left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+}
+.portfolio-1 .pf-img-main-height {
+	position: relative;
+	top: 0%; left: 0%;
+	transform: translate(0%, 0%);
+	width: 100%;
+}
+/*
+		P O R T F O L I O, E N D
+*****************************************/
+/*
+		C O N T A C T S T A R T
+*****************************************/
+.contact {
+	text-align: center;
+	margin: 0 auto;
+	
+	padding-top: 30px;
+}

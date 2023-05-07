@@ -1,0 +1,23 @@
+/* * * * * * * * * * * * * * * * * * * * *
+			필터갤러리 javascript
+* * * * * * * * * * * * * * * * * * * * */
+.filter-item>.active {
+	width: 960px;
+	display: block;
+	animation: filtermenu 0.7s ease-in-out 0s normal 1;
+}
+.filter-item>.delete {
+	width: 0%;
+	display: none;
+}
+
+@keyframes filtermenu {
+	0% {
+		margin-top: 100px;
+		opacity: 0;
+	}
+	100% {
+		margin-top: 0px;
+		opacity: 1;
+	}
+}
