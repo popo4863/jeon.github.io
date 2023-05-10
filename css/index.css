@@ -326,16 +326,12 @@ html, body {
 	top: 0%; left: 25%;
 	transform: translate(0%, 0%);
 	width: 100%;
-	
-	z-index:100;
 }
 .portfolio-1 .pf-img-main-height2 {
 	position: relative;
 	top: 0%; left: 0%;
 	transform: translate(0%, 0%);
-	width: 50%;
-
-	z-index:100;
+	width: 70%;
 }
 /*
 		P O R T F O L I O-image, E N D
