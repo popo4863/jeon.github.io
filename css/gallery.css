@@ -1,0 +1,95 @@
+/*
+@media ( min-width: 768px ) {
+}
+@media ( min-width: 1024px ) {
+}
+@media ( min-width: 1366px ) {*/
+	/* //슬라이드 팝업창 */
+	.slide-overlay {
+		z-index: 999; 
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: rgba(0, 0, 0, 0.8);
+		backdrop-filter: blur(3px);
+		display: none;
+	}
+	.slide__container {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		
+		overflow: hidden;
+	}
+	.slides {
+		width: 600%;
+		position: relative;
+		left: 0;
+	}
+	.slides::after {
+		content: "";
+		display: block;
+		clear: both;
+	}	
+	.slides img {
+		width: 70rem;
+	}
+	.slides > li {
+		float: left;
+	}
+	/* 슬라이드 버튼 */
+	.slide-btn {
+		position: absolute;
+		padding: 12px 20px 20px 20px;
+		border-radius: 5em;
+		border: none;
+		border:1px solid rgba(255, 255, 255, 0.2);
+		background-color: rgba(255, 255, 255, 0.2);
+		cursor: pointer;
+		top: 50%;
+		transform: translateY(-50%);
+		z-index: 9;
+		
+		font-size: 2em; font-family: 'NEXON_B';
+		color: #fff;
+	}
+	.--prev { left: 15%; }
+	.--next { right: 15%; }
+	/* 닫기버튼 */
+	.close-btn {
+		position: absolute; cursor:pointer;
+		padding: 10px 15px 10px 15px; border-radius: 5em;
+		font-size: 1.5em; font-family: 'NEXON_B'; color: #fff;
+		top: 5em;
+		right: 50%;
+		
+		border:1px solid rgba(255, 255, 255, 0.2);
+		background-color: rgba(255, 255, 255, 0.2);
+	}
+
+	/* bullet */
+	#bullets {
+		position: absolute;
+		bottom: 15%;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	#bullets > li {
+		float: left;
+		margin: 0 8px;
+	}
+	#bullets > li > a {
+		display: block;
+		text-decoration: none;
+		color: transparent;
+		background-color: rgba(255, 255, 255);
+		width: 1em;
+		height: 1em;
+		border-radius: 50%;
+		transition: 0.2s;
+	}
+	#bullets > li > a.on { background-color: tomato; }
+/*}*/
