@@ -1,0 +1,399 @@
+@font-face {
+	font-family: "Noto";
+	font-style: blod;
+	src:url('font/NotoSansKR-Light.otf') format('opentype')
+}
+a{
+	text-decoration:none;
+	color: #333;
+}
+html{
+	background:url('../image/background/main_bg.jpg') no-repeat;
+}
+/***************************************************************
+							header
+****************************************************************/
+/******************
+	menu 선택자 
+******************/
+.menu{
+	margin:0 auto;
+	text-align:center;
+	margin-top:10px;
+	width:1050px;
+	
+	font-family: Noto;
+}
+.menu a{
+	color:#e7e7e7;
+}
+.menu a:hover{
+	color:#f3f3f3;
+	text-shadow:3px 6px 10px #fff;
+	transition:all 1s;
+}
+.menu ul > li{
+	display:inline-block;
+	padding:15px 30px 30px 30px;
+	margin-top:45px;
+}
+.menu li > a{
+	font-size:1.05em;
+}
+.menu li > ul{
+	transform: scaleY(0);
+	transform-origin:top;
+	position:absolute;
+	padding:-4px;
+	margin:-4px;
+}
+.menu li:hover > ul{
+	transform: scaleY(1);
+	position:absolute;
+	margin:20px 0 0 -10px;+326
+	text-align:center;
+	font-size:13px;
+}
+.menu li ul li > a{
+	padding:10px;
+}
+.menu li ul > li{
+	padding:0;
+	margin:0;
+}
+
+/***************************************************************
+							body
+****************************************************************/
+#section1{
+	margin:0 auto;
+	width:1050px;	
+	
+	font-family: Noto;
+}
+.swiper-container{
+	width:737px;
+	height:403px;
+	margin-top:30px;
+	float:left;
+}
+.download{
+	display:inline-block;
+	width:279px;
+	height:151px;
+	float:right;
+	margin:30px 20px 0 0;
+}
+/* 로그인 박스 시작 */
+.login-box{
+	/* 로그인 박스 1순위 */
+	background-color:#202225;
+	width:279px;
+	height:195px;
+	float:right;
+	margin:0 20px 0 0;
+	text-align:center;
+	color:#939393;
+}
+.login-box-input{
+	/* 로그인 박스 2순위 */
+	margin:22px auto;
+	width:150px;
+	margin-left:60px;
+}
+.name_img{
+	margin:0 0 10px 0;
+}
+.user{
+	padding:30px 40px 15px 30px;
+	font-size:14px;
+	letter-spacing:-2px;
+}
+.point{	
+	margin:0 auto;
+	padding:3px 10px 3px 10px;
+	margin-bottom:10px;
+	background-color:#373b41;
+	border:1px solid #494e56;
+	width:150px;
+	font-size:14px;
+	letter-spacing:-2px;
+}
+.logout{
+	cursor:pointer;
+}
+.input_id, .input_pw{
+	/* 로그인 박스 라벨 숨기기 */
+	display:none;
+}
+.user-id{
+	width:170px;
+	height:20px;
+	font-size:0.85em;
+	background-color:#494e56; color:#939393; border:1px solid #404d56; font-family:"Noto Sans KR";
+	margin:10px -10px 5px;
+	border-radius:10px;
+	
+	font-family: Noto;
+}
+.user-pw{
+	width:170px;
+	height:20px;
+	font-size:0.85em;
+	background-color:#494e56; color:#939393; border:1px solid #404d56; font-family:"Noto Sans KR";
+	margin-left:-10px;
+	border-radius:10px;
+	
+	font-family: Noto;
+}
+.login_btn{
+	margin-top:13px;
+	margin-left:-10px;
+}
+.register{
+	display:block;
+	font-size:0.8em;
+	color:#939393;
+	margin-top:10px;
+}
+.register:hover{
+	color:#bfbfbf;
+	transition:all 1s;
+}
+/* 로그인 박스 끝 */
+#section2{	
+	margin:0 auto;
+	width:1356px; height:150px;
+	clear:both;
+}
+.event1{
+	float:left;
+	width:450px; height:150px;
+	margin-top:55px;
+	margin-right:3px;
+}
+.event2{
+	float:left;
+	width:450px; height:150px;
+	margin-top:55px;
+}
+.event3{
+	float:left;
+	width:450px; height:150px;
+	margin-top:55px;
+	margin-left:3px;
+}
+/* 공지사항 + 게임가이드 등.. */
+.board{
+	margin:0 auto;
+	width:1215px;
+	clear:both;
+	
+	font-family: Noto;
+}
+#section3{
+	float:left;
+	width:390px;
+	height:250px;
+	margin-top:100px;
+	border-right:1px solid #b3b3b3;
+}
+#section3 span:nth-child(3) {
+	font-size: 0.88em;
+	display: block;
+	margin-top: 10px;
+	line-height: 20px;
+	color: #333;
+}
+/* 공지사항 */
+.notice-text{
+	font-size:20px;
+	font-weight:400;
+	letter-spacing:-2px;
+}
+.notice-text2{
+	font-size:13px;	
+	display:block;
+	width:400px;
+	text-align:right;
+	margin-left:-30px;
+}
+.notice{
+	font-size:13px;		
+	width:400px;
+	height:250px;	
+}
+.notice a, .notice-text2 a{
+	color:#404040;	
+}
+.notice a:hover{
+	color:#c3c3c3;
+	transition: all 1s;
+}
+.main_notices{
+	margin-top:20px;
+	width:400px;
+	/* 세트 */
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+	/******/
+}
+/* 업데이트 */
+#section4{
+	float:left;
+	width:390px;
+	height:250px;
+	margin:100px 0 0 15px;
+	border-right:1px solid #b3b3b3;	
+}
+#section4 span:nth-child(3) {
+	font-size: 0.88em;
+	display: block;
+	margin-top: 10px;
+	line-height: 20px;
+	color: #333;
+}
+.update-text{
+	font-size:20px;
+	font-weight:400;
+	letter-spacing:-2px;	
+}
+.update-text2{
+	font-size:13px;	
+	display:block;
+	width:400px;
+	text-align:right;
+	margin-left:-30px;	
+}
+.update{
+	font-size:13px;		
+	width:400px;
+	height:250px;
+}
+.update a, .update-text2 a{
+	color:#404040;
+}
+.update a:hover{
+	color:#c3c3c3;
+	transition: all 1s;
+}
+/* 내용 박스 공통 */
+.main_update{
+	margin-top:20px;
+	width:400px;
+	/* 세트 */
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+	/******/
+}
+/* 핫 뉴스 */
+#section5{
+	float:right;
+	width:390px;
+	height:250px;
+	margin:100px 5px 0 0;
+}
+#section5 span:nth-child(3) {
+	font-size: 0.88em;
+	display: block;
+	margin-top: 10px;
+	line-height: 20px;
+	color: #333;
+}
+.item-text{
+	font-size:20px;
+	font-weight:400;
+	letter-spacing:-2px;	
+}
+.item-text2{
+	font-size:13px;	
+	display:block;
+	width:400px;
+	text-align:right;
+	margin-left:0px;	
+}
+.item-text2 a{
+	color:#404040;
+}
+.section5_img{
+	background:url('/image/news.jpg'); border-radius:0 50px 0 0;
+	margin-top:10px;
+	display:inline-block; width:400px; height:190px;
+}
+.section5_img:hover{
+	opacity:0.8;
+	transition:all 1s;
+}
+/* 마켓 */
+#section6{
+	clear:both;	
+	width:100%;
+	margin:0 auto;
+	background-color:#f1f1f1;
+	margin-top:380px;
+	
+	font-family: Noto;
+}
+.item_width{
+	width:1070px;
+	margin:0 auto;
+	padding-bottom:20px;	
+}
+.item_width th, td{
+	text-align:center;
+	padding:20px;
+}
+.item_width td a{
+	color:#404040;
+}
+.item_background{
+	width:120px;
+	background-color:#e3e3e3;
+	border-radius:150px;
+}
+.item_icon{
+	margin-top:-40px;
+}
+/*****************************************************
+						FOOTER
+*****************************************************/
+.footer_bar{
+	text-align:center;
+	color:#aaa; font-size:0.75em;
+	
+	margin-top:30px;
+	padding:15px;
+	border-top:1px solid #c3c3c3;
+	border-bottom:1px solid #c3c3c3;
+	background-color:#fff;	
+}
+#footer{
+	width:100%;
+	height:145px;
+	background-color:#fff;
+	margin:0 auto;
+	
+	font-family: Noto;
+}
+.footer_bar a{
+	color:#3e3e3e;
+}
+.footer_box{
+	width:670px;
+	margin:0 auto;
+	padding-top:20px;
+}
+.footer_icon{
+	padding-bottom:10px;
+}
+.footer_text dl{
+	padding:2px;
+	text-align:center;		
+}
+.footer_text dd{
+	display:inline-block;
+	font-size:0.8em; font-weight:500;
+	color:#3e3e3e;
+}

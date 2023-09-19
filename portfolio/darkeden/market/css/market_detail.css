@@ -1,0 +1,307 @@
+@font-face {
+	font-family: "Noto";
+	src:url('font/NotoSansKR-Light.otf') format('opentype')
+}
+a{
+	text-decoration:none;
+}
+html{
+	background:url('/image/background/market.jpg')  no-repeat;
+}
+/***************************************************************
+							header
+****************************************************************/
+/******************
+	menu 선택자 
+******************/
+.menu{
+	margin:0 auto;
+	text-align:center;
+	margin-top:10px;
+	width:1050px;
+	
+	font-family: "Noto";
+}
+.menu a{
+	color:#e7e7e7;
+}
+.menu a:hover{
+	color:#f3f3f3;
+	text-shadow:3px 6px 10px #fff;
+	transition:all 1s;
+}
+.menu ul > li{
+	display:inline-block;
+	padding:15px 30px 30px 30px;
+	margin-top:45px;
+}
+.menu li > a{
+	font-size:1.05em;
+}
+.menu li > ul{
+	transform: scaleY(0);
+	transform-origin:top;
+	position:absolute;
+	padding:-4px;
+	margin:-4px;
+}
+.menu li:hover > ul{
+	transform: scaleY(1);
+	position:absolute;
+	margin:20px 0 0 -10px;+326
+	text-align:center;
+	font-size:13px;
+}
+.menu li ul li > a{
+	padding:10px;
+}
+.menu li ul > li{
+	padding:0;
+	margin:0;
+}
+/***************************************************************
+							body
+****************************************************************/
+#section1{
+	margin:0 auto;
+	width:1050px;	
+	
+	font-family: Noto;
+}
+.swiper-container{
+	width:737px;
+	height:403px;
+	margin-top:30px;
+	float:left;
+}
+.download{
+	display:inline-block;
+	width:279px;
+	height:151px;
+	float:right;
+	margin:30px 20px 0 0;
+}
+/* 로그인 박스 시작 */
+.login-box{
+	/* 로그인 박스 1순위 */
+	background-color:#202225;
+	width:279px;
+	height:195px;
+	float:right;
+	margin:0 20px 0 0;
+	text-align:center;
+	color:#939393;
+}
+.login-box-input{
+	/* 로그인 박스 2순위 */
+	margin:22px auto;
+	width:150px;
+	margin-left:60px;
+}
+.name_img{
+	margin:0 0 10px 0;
+}
+.user{
+	padding:30px 40px 15px 30px;
+	font-size:14px;
+	letter-spacing:-2px;
+}
+.point{	
+	margin:0 auto;
+	padding:3px 10px 3px 10px;
+	margin-bottom:10px;
+	background-color:#373b41;
+	border:1px solid #494e56;
+	width:150px;
+	font-size:14px;
+	letter-spacing:-2px;
+}
+.input_id, .input_pw{
+	/* 로그인 박스 라벨 숨기기 */
+	display:none;
+}
+.user-id{
+	width:170px;
+	height:20px;
+	font-size:0.85em;
+	background-color:#494e56; color:#939393; border:1px solid #404d56; font-family:"Noto Sans KR";
+	margin:10px -10px 5px;
+	border-radius:10px;
+	
+	font-family: Noto;
+}
+.user-pw{
+	width:170px;
+	height:20px;
+	font-size:0.85em;
+	background-color:#494e56; color:#939393; border:1px solid #404d56; font-family:"Noto Sans KR";
+	margin-left:-10px;
+	border-radius:10px;
+	
+	font-family: Noto;
+}
+.login_btn{
+	margin-top:13px;
+	margin-left:-10px;
+}
+.register{
+	display:block;
+	font-size:0.8em;
+	color:#939393;
+	margin-top:10px;
+}
+.register:hover{
+	color:#bfbfbf;
+	transition:all 1s;
+}
+#section2{	
+	margin:0 auto;
+	width:1060px;
+	clear:both;
+}
+.event1{
+	display:left;
+	width:1040px; height:210px;
+	margin-top:25px;
+	margin-right:3px;
+}
+.event2{
+	float:left;
+	width:450px; height:150px;
+	margin-top:55px;
+}
+.event3{
+	float:left;
+	width:450px; height:150px;
+	margin-top:55px;
+	margin-left:3px;
+}
+#section3{
+	width:700px;
+	float:left;
+	font-family: Noto;
+}
+.board{
+	width:700px;
+	margin:0 auto;
+}	
+.market_menu{
+	font-size: 18px;
+	font-weight: 500;
+    color: #333;
+	letter-spacing: -3px;
+    height: auto;
+	
+	padding:0 10px 20px 0;
+	border-bottom: 2px solid #ebebeb;
+}
+.market_menu_set{
+    margin-top: 60px;
+}
+.market_item{
+	display:inline-block;
+	margin:50px 0 30px 0;
+}
+.item_image{
+	display:inline-block;
+	
+	margin-bottom:10px; padding:50px;
+	
+	border:1px solid #ebe3dd;
+	background-color:#ebe3dd;
+	
+	text-align:center;	
+}
+.bottom-top{
+	display:inline-block;
+}
+.market_item_name{
+	display:inline-block;
+	padding:20px 0 20px 30px;
+	height:318px;
+	font-size:30px;
+	
+	letter-spacing: -3px;
+}
+.market_item_price {	
+	display:inline-block;
+	margin-top:10px;
+	font-size:25px;
+	color:#6a3838;
+}
+.buy_player {
+	margin-top:30px;
+	font-size:15px;
+}
+.select_box {
+	width:200px;
+	height:40px;
+	margin-top:5px;
+}
+.submit_box {
+	font-size:15px;
+	width:300px; height:50px;
+	
+	background-color:#473a30;
+	border:1px solid #473a30;
+	color:#fff;
+}
+.submit_box_set {
+	position:relative;
+	top:160px;
+}
+
+.market_items{
+	padding:20px 0 20px 0;
+	font-size:25px;
+	
+	letter-spacing: -5px;
+}
+.market_item_information{
+	padding:20px 0 0 0;
+	font-size:15px;
+	
+	letter-spacing: -1.5px;
+}
+/*****************************************************
+						FOOTER
+*****************************************************/
+.footer_bar{
+	clear:both;
+	text-align:center;
+	color:#aaa; font-size:0.75em;
+	
+	margin-top:30px;
+	padding:15px;
+	border-top:1px solid #c3c3c3;
+	border-bottom:1px solid #c3c3c3;
+	background-color:#fff;	
+}
+#footer{
+	width:100%;
+	height:145px;
+	background-color:#fff;
+	margin:0 auto;
+	
+	font-family: Noto;
+}
+.footer_bar a{
+	color:#3e3e3e;
+}
+.footer_box{
+	width:670px;
+	margin:0 auto;
+	padding-top:20px;
+}
+.footer_icon{
+	padding-bottom:10px;
+}
+.footer_text dl{
+	padding:2px;
+	text-align:center;		
+}
+.footer_text dd{
+	display:inline-block;
+	font-size:0.8em; font-weight:500;
+	color:#3e3e3e;
+}
