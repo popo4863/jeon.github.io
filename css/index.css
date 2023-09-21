@@ -107,7 +107,7 @@ A
 	/* section 첫 번째 */
 	.content_main {
 		background-image: linear-gradient(#f5faff 10%, #c7ddf1 50%, #dbfff6);
-		height: 65vh;
+		height: 600px;
 	}
 	.main-section1 {
 		margin: 0 auto;
@@ -211,9 +211,9 @@ A
 	/************************************************************
 	/* section 두 번째 */
 	.content_2 {
-		padding-top: 150px;
+		padding-top: 130px;
 		background-image: linear-gradient(#dbfff6, #dbffe9 50%, #fbffdb);
-		height: 96vh;
+		height: 850px;
 		
 		font-family: 'NEXON'; font-weight: 900;
 	}
@@ -319,9 +319,9 @@ A
 	.content_2 > .profile_box > .profile-right > h2 { font-size: 1.25em; font-weight: 900;}
 	/* section 세번째 */
 	.content_3 {
-		padding-top: 110px;
+		padding-top: 140px;
 		background-image: linear-gradient(#fbffdb, #fff4db 50%, #f4ffdb);
-		height: 95vh;
+		height: 800px;
 		
 		font-family: 'NEXON'; font-weight: 900;
 	}
@@ -378,7 +378,7 @@ A
 	.content_4 {
 		padding-top: 110px;
 		background-image: linear-gradient(#f4ffdb, #dbffe2 50%, #dbfffc);
-		height: 200vh;
+		height: 1900px;
 		
 		font-family: 'NEXON'; font-weight: 900;
 	}
@@ -487,9 +487,7 @@ A
 	}
 	/* section 다섯번째 */
 	.content_5 {
-		padding-top: 110px;
 		background-image: linear-gradient(#dbfffc, #f5faff 50%, #c7ddf1);
-		height: auto;
 		
 		font-family: 'NEXON'; font-weight: 900;
 	}
@@ -560,7 +558,7 @@ A
 	/* section 첫 번째 */
 	.content_main {
 		background-image: linear-gradient(#f5faff 10%, #c7ddf1 50%, #dbfff6);
-		height: 65vh;
+		height: 600px;
 	}
 	.main-section1 {
 		margin: 0 auto;
@@ -664,9 +662,9 @@ A
 	/************************************************************
 	/* section 두 번째 */
 	.content_2 {
-		padding-top: 150px;
+		padding-top: 100px;
 		background-image: linear-gradient(#dbfff6, #dbffe9 50%, #fbffdb);
-		height: 96vh;
+		height: 890px;
 		
 		font-family: 'NEXON'; font-weight: 900;
 	}
@@ -768,9 +766,9 @@ A
 	.content_2 > .profile_box > .profile-right > h2 { font-size: 1.25em; font-weight: 900;}
 	/* section 세번째 */
 	.content_3 {
-		padding-top: 110px;
+		padding-top: 90px;
 		background-image: linear-gradient(#fbffdb, #fff4db 50%, #f4ffdb);
-		height: 95vh;
+		height: 920px;
 		
 		font-family: 'NEXON'; font-weight: 900;
 	}
@@ -827,7 +825,7 @@ A
 	.content_4 {
 		padding-top: 110px;
 		background-image: linear-gradient(#f4ffdb, #dbffe2 50%, #dbfffc);
-		height: 200vh;
+		height: 1900px;
 		
 		font-family: 'NEXON'; font-weight: 900;
 	}
@@ -930,10 +928,7 @@ A
 	}
 	/* section 다섯번째 */
 	.content_5 {
-		padding-top: 110px;
 		background-image: linear-gradient(#dbfffc, #f5faff 50%, #c7ddf1);
-		height: auto;
-		
 		font-family: 'NEXON'; font-weight: 900;
 	}
 	.footer-box {
@@ -1003,7 +998,7 @@ A
 	/* section 첫 번째 */
 	.content_main {
 		background-image: linear-gradient(#f5faff 10%, #c7ddf1 50%, #dbfff6);
-		height: 95vh;
+		height: 800px;
 	}
 	.main-section1 {
 		margin: 0 auto;
@@ -1109,7 +1104,7 @@ A
 	.content_2 {
 		padding-top: 150px;
 		background-image: linear-gradient(#dbfff6, #dbffe9 50%, #fbffdb);
-		height: 96vh;
+		height: 800px;
 		
 		font-family: 'NEXON'; font-weight: 900;
 	}
@@ -1213,7 +1208,7 @@ A
 	.content_3 {
 		padding-top: 110px;
 		background-image: linear-gradient(#fbffdb, #fff4db 50%, #f4ffdb);
-		height: 95vh;
+		height: 890px;
 		
 		font-family: 'NEXON'; font-weight: 900;
 	}
@@ -1270,7 +1265,7 @@ A
 	.content_4 {
 		padding-top: 110px;
 		background-image: linear-gradient(#f4ffdb, #dbffe2 50%, #dbfffc);
-		height: 200vh;
+		height: 1900px;
 		
 		font-family: 'NEXON'; font-weight: 900;
 	}
@@ -1373,10 +1368,7 @@ A
 	}
 	/* section 다섯번째 */
 	.content_5 {
-		padding-top: 110px;
 		background-image: linear-gradient(#dbfffc, #f5faff 50%, #c7ddf1);
-		height: auto;
-		
 		font-family: 'NEXON'; font-weight: 900;
 	}
 	.footer-box {
