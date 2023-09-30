@@ -7,6 +7,11 @@
 		<link rel="icon" href="img/favicon/vertmin.png" />
 		<!-- css -->
 		<link rel="stylesheet" href="css/index.css" />
+		<!-- 슬라이드 JavaScript -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>	
+		<!-- 슬라이드 스크립트 -->		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
+		<link rel="stylesheet" href="css/slide/slide.css">
 		<!-- 갤러리 스타일시트 -->
 		<link rel="stylesheet" href="css/gallery.css"/>
 		<link rel="stylesheet" href="css/reset.css" />
@@ -309,8 +314,40 @@
 				</p>
 			</div>
 		</section>
-		<section id="contact">
+		<!--
+		<section id="portfolio2">
 			<div class="content_5">
+				<div class="portfolio2-box">
+					<p>
+						CONTACT
+						<span></span>
+					</p>
+					<div class="swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<a href="img/gallery/11.png" target="_blank"><img src="img/gallery/11.png" class="image1" class="logo" alt="로고"/></a>
+								<a href="img/gallery/11.png" target="_blank"><img src="img/gallery/11.png" class="image2" class="logo" alt="로고"/></a>
+								<a href="img/gallery/11.png" target="_blank"><img src="img/gallery/11.png" class="image3" class="logo" alt="로고"/></a>
+								<a href="img/gallery/11.png" target="_blank"><img src="img/gallery/11.png" class="image4" class="logo" alt="로고"/></a>
+								<a href="img/gallery/11.png" target="_blank"><img src="img/gallery/11.png" class="image5" class="logo" alt="로고"/></a>
+							</div>
+							<div class="swiper-slide">
+								<a href="img/gallery/11.png" target="_blank"><img src="img/gallery/11.png" class="image6" class="logo" alt="로고"/></a>
+								<a href="img/gallery/11.png" target="_blank"><img src="img/gallery/11.png" class="image7" class="logo" alt="로고"/></a>
+								<a href="img/gallery/11.png" target="_blank"><img src="img/gallery/11.png" class="image8" class="logo" alt="로고"/></a>
+								<a href="img/gallery/11.png" target="_blank"><img src="img/gallery/11.png" class="image9" class="logo" alt="로고"/></a>
+								<a href="img/gallery/11.png" target="_blank"><img src="img/gallery/11.png" class="image10" class="logo" alt="로고"/></a>
+							</div>
+						</div>
+						<div class="swiper-button-next"></div>
+						<div class="swiper-button-prev"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		-->
+		<section id="contact">
+			<div class="content_6">
 				<div class="footer-box">
 					<p>
 						CONTACT
@@ -320,6 +357,8 @@
 						Phoen. 010-3649-1481
 						<br>
 						E-mail. popo4863@naver.com
+						<br><br>
+						※ 해당 사이트는 PC전용 반응형으로 제작 된 포트폴리오 입니다. ※
 					</h3>
 				</div>
 			</div>
@@ -334,6 +373,24 @@
 	  } else {
 		menu.classList.remove('active');
 	  }
+	});
+	
+	// Swiper
+	var swiper = new Swiper('.swiper-container', {
+		loop: true, // 무한 루프
+		effect: 'fad2e', //이펙트 페이드로 넣어서 흐려지게
+		slidesPerView: 1,
+		pagination: {
+			el: '.swiper-pagination',
+			clickable : true, // 슬라이드 동그라미 클릭 가능하게
+		},
+		autoplay: {
+			delay: 133000, // 6초 마다 옆으로 이동
+		},
+		navigation: {
+			prevEl: '.swiper-button-prev',
+			nextEl: '.swiper-button-next',
+		},
 	});
 </script>	
 	</body>
