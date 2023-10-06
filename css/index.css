@@ -491,7 +491,7 @@ A
 	.content_5 {
 		padding-top: 40px;
 		background-image: linear-gradient(#dbfffc, #e9eaff 50%, #dbfffc);
-		height: 680px;
+		height: 500px;
 		
 		font-family: 'NEXON'; font-weight: 900;
 	}
@@ -520,23 +520,77 @@ A
 		float:left;
 	}
 	.swiper-slide img {
-		border:1px solid #ccc; margin: 3px;
+		border-radius: 10px; margin: 3px;
 		float: left;
 	}
 	/* 슬라이드 이미지 */
-	.image1 { width: 260px; height: 150px; }
-	.image2 { width: 260px; height: 150px; }
-	.image3 { width: 262px; height: 150px; }
-	.image4 { width: 394px; height: 223px; }
-	.image5 { width: 394px; height: 223px; }
+	.image1 { width: 260px; height: 342px; }
+	.slide-text p { 
+		position: absolute; transition: all 0.4s; 
+		opacity: 0; color: #efefef;
+		top: 50%; left: 16.5%;
+		transform: translate(-50%, -16%);
+		text-align: center;
+	}
+	.slide-text span { font-size : 25px; }
+	.slide-text:hover p {
+		transition: all 0.4s; opacity: 1;
+	}
+	.slide-text:hover .cover-image {
+		position: absolute;
+		width: 260px; height: 342px;
+		top: 50%; left: 16.7%;
+		transform: translate(-50%, -50%);
+		background-color: rgba(0, 0, 0, 0.4);
+		border-radius: 10px;
+	}
 	
-	.image6 { width: 303px; height: 379px; }
+	.image2 { width: 260px; height: 342px; }
+	.slide-text2 p { 
+		position: absolute; transition: all 0.4s; 
+		opacity: 0; color: #efefef;
+		top: 55.5%; left: 51%;
+		transform: translate(-54%, -50%);
+		text-align: center;
+	}
+	.slide-text2 span { font-size : 25px; }
+	.slide-text2:hover p {
+		transition: all 0.4s; opacity: 1;
+	}
+	.slide-text2:hover .cover-image {
+		position: absolute;
+		width: 260px; height: 342px;
+		top: 50%; left: 50%;
+		transform: translate(-50%, -50%);
+		background-color: rgba(0, 0, 0, 0.4);
+		border-radius: 10px;
+	}
 	
-	.image7 { width: 239px; height: 113px; }
-	.image8 { width: 239px; height: 113px; }
+	.image3 { width: 260px; height: 342px; }
+	.slide-text3 p { 
+		position: absolute; transition: all 0.4s; 
+		opacity: 0; color: #efefef;
+		top: 61%; left: 85%;
+		transform: translate(-58%, -84%);
+		text-align: center;
+	}
+	.slide-text3 span { font-size : 25px; }
+	.slide-text3:hover p {
+		transition: all 0.4s; opacity: 1;
+	}
+	.slide-text3:hover .cover-image {
+		position: absolute;
+		width: 260px; height: 342px;
+		top: 51%; left: 83%;
+		transform: translate(-49%, -51%);
+		background-color: rgba(0, 0, 0, 0.4);
+		border-radius: 10px;
+	}
 	
-	.image9 { width: 239px; height: 260px; }
-	.image10 { width: 239px; height: 260px; }
+	/*
+	.image4 { width: 394px; height: 512px; }
+	.image5 { width: 393px; height: 512px; }
+	.image6 { width: 394px; height: 512px; }*/
 	/* section 다섯번째 */
 	.content_6 {
 		background-image: linear-gradient(#dbfffc, #dbfffc 50%, #f5faff);
@@ -988,7 +1042,7 @@ A
 	.content_5 {
 		padding-top: 40px;
 		background-image: linear-gradient(#dbfffc, #e9eaff 50%, #dbfffc);
-		height: 870px;
+		height: 600px;
 		
 		font-family: 'NEXON'; font-weight: 900;
 	}
@@ -1017,21 +1071,77 @@ A
 		float:left;
 	}
 	.swiper-slide img {
-		border:1px solid #ccc; margin: 3px;
+		border-radius: 10px; margin: 3px;
 		float: left;
 	}
 	/* 슬라이드 이미지 */
-	.image1 { width: 327px; height: 170px; }
-	.image2 { width: 327px; height: 170px; }
-	.image3 { width: 328px; height: 170px; }
-	.image4 { width: 494px; height: 283px; }
-	.image5 { width: 494px; height: 283px; }
+	.image1 { width: 328px; height: 412px; }
+	.slide-text p { 
+		position: absolute; transition: all 0.4s; 
+		opacity: 0; color: #efefef;
+		top: 50%; left: 16%;
+		transform: translate(-50%, -16%);
+		text-align: center;
+	}
+	.slide-text span { font-size : 28px; }
+	.slide-text:hover p {
+		transition: all 0.4s; opacity: 1;
+	}
+	.slide-text:hover .cover-image {
+		position: absolute;
+		width: 328px; height: 412px;
+		top: 50%; left: 16.7%;
+		transform: translate(-50%, -50%);
+		background-color: rgba(0, 0, 0, 0.4);
+		border-radius: 10px;
+	}
 	
-	.image6 { width: 353px; height: 459px; }
-	.image7 { width: 314px; }
-	.image8 { width: 315px; }
-	.image9 { width: 414px; height: 290px; }
-	.image10 { width: 215px; height: 290px; }
+	.image2 { width: 327px; height: 412px; }
+	.slide-text2 p { 
+		position: absolute; transition: all 0.4s; 
+		opacity: 0; color: #efefef;
+		top: 54%; left: 50.5%;
+		transform: translate(-54%, -50%);
+		text-align: center;
+	}
+	.slide-text2 span { font-size : 28px; }
+	.slide-text2:hover p {
+		transition: all 0.4s; opacity: 1;
+	}
+	.slide-text2:hover .cover-image {
+		position: absolute;
+		width: 327px; height: 412px;
+		top: 50%; left: 50%;
+		transform: translate(-50%, -50%);
+		background-color: rgba(0, 0, 0, 0.4);
+		border-radius: 10px;
+	}
+	
+	.image3 { width: 327px; height: 412px; }
+	.slide-text3 p { 
+		position: absolute; transition: all 0.4s; 
+		opacity: 0; color: #efefef;
+		top: 58%; left: 85%;
+		transform: translate(-58%, -84%);
+		text-align: center;
+	}
+	.slide-text3 span { font-size : 28px; }
+	.slide-text3:hover p {
+		transition: all 0.4s; opacity: 1;
+	}
+	.slide-text3:hover .cover-image {
+		position: absolute;
+		width: 327px; height: 412px;
+		top: 51%; left: 83%;
+		transform: translate(-49%, -51%);
+		background-color: rgba(0, 0, 0, 0.4);
+		border-radius: 10px;
+	}
+	
+	/*
+	.image4 { width: 394px; height: 512px; }
+	.image5 { width: 393px; height: 512px; }
+	.image6 { width: 394px; height: 512px; }*/
 	/*****************************************
 	section 여섯번째 
 	*****************************************/
@@ -1485,7 +1595,7 @@ A
 	.content_5 {
 		padding-top: 40px;
 		background-image: linear-gradient(#dbfffc, #e9eaff 50%, #dbfffc);
-		height: 870px;
+		height: 700px;
 		
 		font-family: 'NEXON'; font-weight: 900;
 	}
@@ -1518,17 +1628,73 @@ A
 		float: left;
 	}
 	/* 슬라이드 이미지 */
-	.image1 { width: 394px; height: 200px; }
-	.image2 { width: 393px; height: 200px; }
-	.image3 { width: 394px; height: 200px; }
-	.image4 { width: 594px; height: 313px; }
-	.image5 { width: 594px; height: 313px; }
+	.image1 { width: 394px; height: 512px; }
+	.slide-text p { 
+		position: absolute; transition: all 0.4s; 
+		opacity: 0; color: #efefef;
+		top: 50%; left: 16%;
+		transform: translate(-50%, -16%);
+		text-align: center;
+	}
+	.slide-text span { font-size : 30px; }
+	.slide-text:hover p {
+		transition: all 0.4s; opacity: 1;
+	}
+	.slide-text:hover .cover-image {
+		position: absolute;
+		width: 394px; height: 512px;
+		top: 50%; left: 16.7%;
+		transform: translate(-50%, -50%);
+		background-color: rgba(0, 0, 0, 0.4);
+		border-radius: 10px;
+	}
 	
-	.image6 { width: 393px; height: 519px; }
-	.image7 { width: 394px; }
-	.image8 { width: 394px; }
-	.image9 { width: 494px; height: 309px; }
-	.image10 { width: 294px; height: 309px; }
+	.image2 { width: 393px; height: 512px; }
+	.slide-text2 p { 
+		position: absolute; transition: all 0.4s; 
+		opacity: 0; color: #efefef;
+		top: 54%; left: 50.5%;
+		transform: translate(-54%, -50%);
+		text-align: center;
+	}
+	.slide-text2 span { font-size : 30px; }
+	.slide-text2:hover p {
+		transition: all 0.4s; opacity: 1;
+	}
+	.slide-text2:hover .cover-image {
+		position: absolute;
+		width: 394px; height: 512px;
+		top: 50%; left: 50%;
+		transform: translate(-50%, -50%);
+		background-color: rgba(0, 0, 0, 0.4);
+		border-radius: 10px;
+	}
+	
+	.image3 { width: 394px; height: 512px; }
+	.slide-text3 p { 
+		position: absolute; transition: all 0.4s; 
+		opacity: 0; color: #efefef;
+		top: 58%; left: 85%;
+		transform: translate(-58%, -84%);
+		text-align: center;
+	}
+	.slide-text3 span { font-size : 30px; }
+	.slide-text3:hover p {
+		transition: all 0.4s; opacity: 1;
+	}
+	.slide-text3:hover .cover-image {
+		position: absolute;
+		width: 394px; height: 512px;
+		top: 51%; left: 83%;
+		transform: translate(-49%, -51%);
+		background-color: rgba(0, 0, 0, 0.4);
+		border-radius: 10px;
+	}
+	
+	/*
+	.image4 { width: 394px; height: 512px; }
+	.image5 { width: 393px; height: 512px; }
+	.image6 { width: 394px; height: 512px; }*/
 	/******************************************* 
 	section 마지막 
 	*******************************************/
